@@ -1,0 +1,19 @@
+[package]
+name = "rmark"
+version = "0.1.0"
+authors = ["Mubarrid Albar <mubarrid.albar@outlook.com>"]
+edition = "2018"
+
+[lib]
+name = "librmark"
+path = "src/lib.rs"
+
+[dependencies]
+regex = "1"
+lazy_static = "1.4.0"
+
+[[bin]]
+name = "rmark"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
